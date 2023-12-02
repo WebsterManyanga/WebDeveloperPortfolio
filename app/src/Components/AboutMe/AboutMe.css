@@ -1,0 +1,97 @@
+.about {
+  width: 100%;
+  position: relative;
+}
+
+
+.about h1 {
+  font-size: 40px;
+  padding: 45px 0;
+  display: block;
+}
+
+.about__top {
+  display: flex;
+  width: 100%;
+}
+
+.about__top p {
+  font-size: 13px;
+  line-height: normal;
+  width: 90%;
+  padding-right: 10px;
+}
+
+.about img {
+  width: 100%;
+  height: 100%;
+}
+
+
+.skills h2 {
+  font-size: 25px;
+  padding: 15px 0;
+}
+
+.skills ul {
+  list-style: inside;
+  font-size: 13px;
+  line-height: normal;
+  width: 100%;
+}
+
+.skills li::marker {
+  font-size: 20px;
+  content: '+';
+  letter-spacing: 5px;
+}
+
+
+.contact-btn  {
+  display: block;
+  margin: 80px auto 0 auto;
+  background: #5E5DF0;
+  border-radius: 999px;
+  box-shadow: #5E5DF0 0 10px 20px -10px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  opacity: 1;
+  outline: 0 solid transparent;
+  padding: 8px 18px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: fit-content;
+  word-break: break-word;
+  border: 0;
+}
+
+.contact-info-container {
+  position: absolute;
+  width: 100%;
+  background-color: #5E5DF0;
+  top: 50%;
+
+}
+
+.contact-info {
+  display: flex;
+  justify-content: center;
+  gap: 3em;
+  width: 80%;
+  padding: 50px 0;
+  background-color: red;
+  margin: 0 auto;
+}
+
+.contact-info a {
+  color: #fff;
+  font-size: 40px;
+  border-radius: 12px;
+}
+
+
