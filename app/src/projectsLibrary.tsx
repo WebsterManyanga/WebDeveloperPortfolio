@@ -9,7 +9,8 @@ export const projectsLibrary: ProjectType[] = [
     link: '',
     image: template,
     description: '',
-    date: ''
+    date: '',
+    category: 'portfolio'
   },
   {
     id: 1,
@@ -18,7 +19,8 @@ export const projectsLibrary: ProjectType[] = [
     link: '',
     image: template,
     description: '',
-    date: ''
+    date: '',
+    category: 'portfolio'
   },
   {
     id: 1,
@@ -27,7 +29,8 @@ export const projectsLibrary: ProjectType[] = [
     link: '',
     image: template,
     description: '',
-    date: ''
+    date: '',
+    category: 'portfolio'
   }
 ]
 

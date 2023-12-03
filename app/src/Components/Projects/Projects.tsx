@@ -1,9 +1,10 @@
-import { FaCaretRight } from "react-icons/fa6";
+import { FaArrowRight, FaCaretRight } from "react-icons/fa6";
 import { projectsLibrary } from "../../projectsLibrary";
 import ProjectCard from "../ProjectCard/ProjectCard";
 import './Projects.css';
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
+import MoreProjects from "../MoreProjects/MoreProjects";
 
 
 
@@ -37,6 +38,8 @@ const Projects = () => {
       >
         {projectsLibrary.map(project => <ProjectCard project={project} />)}
       </Carousel>
+      <button className="projects__see-more">See More <FaArrowRight className="shake-left"/></button>
+      <MoreProjects />
     </section>
   );
 }
