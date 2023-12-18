@@ -1,0 +1,42 @@
+
+.certifications h1{
+  font-size: 40px;
+  padding: 45px 0;
+}
+
+.certifications__carousel {
+  height: 200px;
+}
+
+
+.certifications a {
+  color: inherit;
+  font-family: 'Cinzel', serif;
+}
+
+.certifications__info {
+  background-color: #fff;
+  color: #000;
+  margin-top: 30px;
+  border-radius: 3px;
+  padding: 19px 5px;
+}
+
+
+.certifications__info h2{
+  font-size: 20px;
+
+}
+
+.certifications__info ul {
+  list-style: inside;
+}
+
+.certifications__info li {
+  color: #000;
+  font-family: Cinzel;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}

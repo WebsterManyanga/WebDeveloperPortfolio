@@ -5,6 +5,7 @@ import './Projects.css';
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import MoreProjects from "../MoreProjects/MoreProjects";
+import { Link } from "react-router-dom";
 
 
 
@@ -38,8 +39,7 @@ const Projects = () => {
       >
         {projectsLibrary.map(project => <ProjectCard project={project} />)}
       </Carousel>
-      <button className="projects__see-more">See More <FaArrowRight className="shake-left"/></button>
-      <MoreProjects />
+      <Link to={'/more'} className="projects__see-more">See More <FaArrowRight className="shake-left"/></Link>
     </section>
   );
 }

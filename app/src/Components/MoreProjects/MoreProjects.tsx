@@ -2,6 +2,8 @@ import { useState } from "react";
 import { projectsLibrary } from "../../projectsLibrary";
 import ProjectCard from "../ProjectCard/ProjectCard";
 import './MoreProjects.css';
+import { Link } from "react-router-dom";
+import { FaArrowLeft } from "react-icons/fa6";
 
 const MoreProjects = () => {
 
@@ -12,19 +14,16 @@ const MoreProjects = () => {
       <header>
         <h1>All Projects</h1>
         <nav>
-          <button className="active-category">Portfolios</button>
-          <button>Business</button>
-          <button>Ecommerce</button>
-          <button>Entertainment</button>
+          <Link to='/portfolios' className="more-projects__nav-item active-category">Portfolios</Link>
+          <Link to='/business' className="more-projects__nav-item">Business</Link>
+          <Link to='/ecommerce' className="more-projects__nav-item">Ecommerce</Link>
+          <Link to='/fun' className="more-projects__nav-item">Fun</Link>
         </nav>
       </header>
       <div className="more-projects__cards">
-        {projectsLibrary.map(project => {
-          if (project.category === category) {
-            return <ProjectCard project={project}/>
-          }
-        })}
+
       </div>
+      <Link to={'/#projects'} className="more-projects__see-less"><FaArrowLeft className="shake-left"/> See Less </Link>
     </section>
   );
 }

@@ -3,6 +3,8 @@ import './App.css';
 import Home from './Components/Home/Home';
 import AboutMe from './Components/AboutMe/AboutMe';
 import Projects from './Components/Projects/Projects';
+import Certifications from './Components/Certifications/Certifications';
+import WorkExperience from './Components/WorkExperience/WorkExperience';
 
 function App() {
   return (
@@ -10,6 +12,8 @@ function App() {
       <Home />
       <AboutMe />
       <Projects />
+      <Certifications />
+      <WorkExperience />
     </div>
   );
 }
