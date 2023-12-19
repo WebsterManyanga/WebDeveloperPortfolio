@@ -35,7 +35,7 @@ const AboutMe = () => {
           <li>Html & Css</li>
         </ul>
       </div>
-      <button className='contact-btn'>Contact Me</button>
+      <button className='contact-btn bn632-hover bn26'>Contact Me</button>
     </section>
   );
 }

@@ -2,6 +2,7 @@ import Carousel from 'react-multi-carousel';
 import './Certifications.css';
 import { certifications } from '../../certifications';
 import Education from '../Education/Education';
+import CertificateCard from '../CertifcateCard/CertificateCard';
 
 const Certifications = () => {
   const responsive = {
@@ -33,7 +34,7 @@ const Certifications = () => {
         infinite
         className='certifications__carousel'
       >
-        {certifications.map(certification => <div >{certification.title}</div>)}
+        {certifications.map(certification => <CertificateCard certificate={certification} />)}
       </Carousel>
       <div className='certifications__info'>
         <h2>Certifications</h2>

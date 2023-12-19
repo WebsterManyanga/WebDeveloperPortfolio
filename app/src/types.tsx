@@ -8,3 +8,12 @@ export interface ProjectType {
   image: string
   category: 'portfolio'| 'business'| 'ecommerce' | 'entertainment'
 }
+
+export interface Certificate {
+  title: string,
+  picture: string,
+  link: string,
+  linkSource: string,
+  day: number,
+  month: string
+}
