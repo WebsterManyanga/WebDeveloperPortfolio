@@ -42,6 +42,10 @@
   font-size: 70px;
 }
 
+.home__proceed--hide {
+  display: none;
+}
+
 @keyframes typing {
   from {
     width: 0

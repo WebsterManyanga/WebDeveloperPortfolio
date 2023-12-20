@@ -6,6 +6,7 @@
 
 .certifications__carousel {
   height: 500px;
+  margin: 0 auto;
 }
 
 
@@ -18,7 +19,7 @@
   background-color: #fff;
   color: #000;
   margin-top: 30px;
-  border-radius: 3px;
+  border-radius: 10px;
   padding: 19px 5px;
 }
 

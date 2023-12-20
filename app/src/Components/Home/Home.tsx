@@ -1,3 +1,4 @@
+import { useState } from 'react';
 import './Home.css';
 import { FaChevronDown } from "react-icons/fa6";
 
@@ -9,7 +10,12 @@ const Home = () => {
         <h1 className="heading__mid">PORTFOLIO.</h1>
         <h1 className="heading__end">WEB DEVELOPER</h1>
       </div>
-    <a href='#about-me' className='home__proceed wobble-hor-bottom'><FaChevronDown /></a>
+    <a 
+      href='#about-me' 
+      className={`'home__proceed--hide'} home__proceed wobble-hor-bottom`}
+    >
+      <FaChevronDown />
+    </a>
     </section>
   );
 }

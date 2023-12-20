@@ -5,6 +5,7 @@ import reportWebVitals from './reportWebVitals';
 import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 import App from './App';
 import MoreProjects from './Components/MoreProjects/MoreProjects';
+import AllProjectsCards from './Components/AllProjectsCards/AllProjectsCards';
 
 
 const router = createBrowserRouter([
@@ -15,7 +16,25 @@ const router = createBrowserRouter([
   },
   {
     path: '/more',
-    element: <MoreProjects />
+    element: <MoreProjects />,
+    children: [
+      {
+        path: 'portfolios',
+        element: <AllProjectsCards category='portfolio' />
+      },
+      {
+        path: 'business',
+        element: <AllProjectsCards category='business' />
+      },
+      {
+        path: 'ecommerce',
+        element: <AllProjectsCards category='ecommerce' />
+      },
+      {
+        path: 'fun',
+        element: <AllProjectsCards category='fun' />
+      }
+    ]
   }
 ])
 
