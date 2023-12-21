@@ -39,7 +39,7 @@ const Projects = () => {
       >
         {projectsLibrary.map(project => <ProjectCard project={project} />)}
       </Carousel>
-      <Link to={'/more'} className="projects__see-more">See More <FaArrowRight className="shake-left"/></Link>
+      <Link to={'/more/portfolios'} className="projects__see-more">See More <FaArrowRight className="shake-left"/></Link>
     </section>
   );
 }

@@ -2,6 +2,8 @@ import { useState } from "react";
 import './MoreProjects.css';
 import { Link, Outlet } from "react-router-dom";
 import { FaArrowLeft } from "react-icons/fa6";
+import AllProjectsCards from "../AllProjectsCards/AllProjectsCards";
+import ScrollToTop from "../ScrollToTop/ScrollToTop";
 
 const MoreProjects = () => {
 
@@ -9,6 +11,7 @@ const MoreProjects = () => {
 
   return (
     <section className="more-projects">
+      <ScrollToTop />
       <header>
         <h1>All Projects</h1>
         <nav>
@@ -43,7 +46,8 @@ const MoreProjects = () => {
         </nav>
       </header>
       <div className="more-projects__cards">
-        <Outlet />
+      <AllProjectsCards category='portfolio' />
+
       </div>
       <Link to={'/#projects'} className="more-projects__see-less"><FaArrowLeft className="shake-left"/> See Less </Link>
     </section>
