@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import './MoreProjects.css';
 import { Link, Outlet } from "react-router-dom";
 import { FaArrowLeft } from "react-icons/fa6";

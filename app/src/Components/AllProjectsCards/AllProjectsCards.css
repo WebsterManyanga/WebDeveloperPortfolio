@@ -1,3 +1,9 @@
+.all-projects {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
 .all-projects h1 {
   text-align: center;
   margin-top: 100px;

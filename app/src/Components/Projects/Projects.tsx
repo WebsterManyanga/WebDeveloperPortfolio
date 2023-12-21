@@ -30,6 +30,7 @@ const Projects = () => {
     }
   };
 
+
   return (
     <section className="projects">
       <h1>PROJECTS.</h1>

@@ -4,13 +4,13 @@ import { MdEmail } from "react-icons/md";
 import { FaInstagram } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa6";
 import { FaGithub } from "react-icons/fa";
-import { useState } from 'react';
+import { RefObject, useRef, useState } from 'react';
+import React from 'react';
 
-const AboutMe = () => {
+const AboutMe = React.forwardRef<HTMLElement, {}>((props, ref) => {
   const [contactMe, setContactMe] = useState(false);
-
   return (
-    <section id='about-me' className="about">
+    <section id='about-me' className="about" ref={ref}>
       <h1>HELLO!</h1>
       <div className='about__top'>
         <img src={me} alt="headshot" />
@@ -49,6 +49,8 @@ const AboutMe = () => {
       </button>
     </section>
   );
-}
+
+}); 
+
 
 export default AboutMe;

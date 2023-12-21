@@ -26,6 +26,7 @@
 
 .certifications__info h2{
   font-size: 20px;
+  padding: 20px 0;
 
 }
 
@@ -40,4 +41,5 @@
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+  margin-bottom: 8px;
 }

@@ -10,7 +10,7 @@ const WorkExperience = () => {
           return (
             <div className="work-experience__job">
               <h2>{job.title}</h2>
-              <p>{`(${job.period})`}</p>
+              <p className='job__period'>{`(${job.period})`}</p>
               <ul>{listResponsibilites(job.responsibilities)}</ul>
             </div>
           )

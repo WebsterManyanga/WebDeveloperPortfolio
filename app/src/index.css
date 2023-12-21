@@ -2,12 +2,13 @@
 @import url('./reset.css');
 
 body {
-  margin: 0;
   font-family: 'Montserrat', sans-serif;
     -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: #000;
   color: #fff;
+  scroll-behavior: smooth;
+  width: 100%;
 }
 
 h1, h2, h3 {
@@ -18,3 +19,4 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+

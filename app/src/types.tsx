@@ -14,6 +14,4 @@ export interface Certificate {
   picture: string,
   link: string,
   linkSource: string,
-  day: number,
-  month: string
 }

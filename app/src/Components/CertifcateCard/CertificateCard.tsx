@@ -5,7 +5,7 @@ const CertificateCard = ({certificate} : PropType) => {
   return (
     <div className='certificate-card-wrappper'>
       <div className='certificate-card'>
-        <div className="certificate-card__date"><span>{certificate.day}</span><span>{certificate.month}</span></div>
+        <img src={certificate.picture} />
       </div>
     </div>
   );

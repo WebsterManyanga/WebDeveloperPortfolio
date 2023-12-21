@@ -8,9 +8,9 @@ const Education = () => {
       <ul>
       {myEducation.map(course => (
         <li>
-          {`${course.school} (${course.period})`}
-          <br/>
-          {course.program} 
+          <span className="course__school">{course.school}</span>
+          <span className="course__program">{course.program}</span> 
+          <span className="course__duration">{course.period}</span>
         </li>
       ))}
       </ul>
