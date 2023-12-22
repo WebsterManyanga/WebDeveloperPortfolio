@@ -9,3 +9,23 @@
   margin-top: 100px;
 }
 
+@media screen and (min-width: 768px) {
+  .all-projects {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr 1fr
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .all-projects {
+    grid-template-columns: 1fr 1fr 1fr
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .all-projects {
+    grid-template-columns: 1fr 1fr 1fr 1fr
+  }
+}
+

@@ -9,6 +9,8 @@ const AllProjectsCards = ({category} : PropType) => {
       return <ProjectCard project={project} />
     }
   });
+
+  console.log(projects);
    
   return (
     <div className="all-projects">

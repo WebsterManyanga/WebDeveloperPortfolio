@@ -10,7 +10,7 @@ export const projectsLibrary: ProjectType[] = [
     image: require('./assets/blackeyeVisuals.jpg'),
     description: '',
     date: 'Nov-05-2023',
-    category: 'portfolio'
+    category: 'portfolios'
   },
   {
     id: 2,
@@ -20,7 +20,7 @@ export const projectsLibrary: ProjectType[] = [
     image: require('./assets/universityLanding.jpg'),
     description: '',
     date: 'Apr-14-2023',
-    category: 'portfolio'
+    category: 'portfolios'
   },
   {
     id: 3,
@@ -30,7 +30,7 @@ export const projectsLibrary: ProjectType[] = [
     image: require('./assets/libraryForm.jpg'),
     description: '',
     date: 'Apr-11-2023',
-    category: 'portfolio'
+    category: 'portfolios'
   },
   {
     id: 4,
@@ -40,7 +40,7 @@ export const projectsLibrary: ProjectType[] = [
     image: require('./assets/littleLemon.jpg'),
     description: '',
     date: 'Apr-28-2023',
-    category: 'portfolio'
+    category: 'portfolios'
   },
   {
     id: 5,
@@ -50,7 +50,7 @@ export const projectsLibrary: ProjectType[] = [
     image: require('./assets/eminemTribute.jpg'),
     description: '',
     date: 'Apr-09-2023',
-    category: 'portfolio'
+    category: 'portfolios'
   }
 ]
 

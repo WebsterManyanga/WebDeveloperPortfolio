@@ -46,8 +46,7 @@ const MoreProjects = () => {
         </nav>
       </header>
       <div className="more-projects__cards">
-      <AllProjectsCards category='portfolio' />
-
+      <AllProjectsCards category={category} />
       </div>
       <Link to={'/#projects'} className="more-projects__see-less"><FaArrowLeft className="shake-left"/> See Less </Link>
     </section>
