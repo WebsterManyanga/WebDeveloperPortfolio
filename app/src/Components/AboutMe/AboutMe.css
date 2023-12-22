@@ -132,7 +132,7 @@
   display: flex;
   font-size: 25px;
   justify-content: center;
-  gap: 35px;
+  gap: 15%;
   margin: 0 auto;
   animation: showContacts 1s;
 }
@@ -159,7 +159,14 @@
   }
 
   .about__img-wrapper {
+    max-width: 250px;
     width: 30%;
     margin-right: 10%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .contact-btn--expanded {
+    width: 50%;
   }
 }
