@@ -3,12 +3,14 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
 import { RouterProvider, createBrowserRouter } from 'react-router-dom';
+import { createHashRouter } from 'react-router-dom';
 import App from './App';
 import MoreProjects from './Components/MoreProjects/MoreProjects';
 import AllProjectsCards from './Components/AllProjectsCards/AllProjectsCards';
 
 
-const router = createBrowserRouter([
+const router = createHashRouter([
+  
   {
     path: '/',
     element: <App />,
