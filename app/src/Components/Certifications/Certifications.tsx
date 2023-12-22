@@ -15,11 +15,11 @@ const Certifications = () => {
       items: 3
     },
     tablet: {
-      breakpoint: { max: 1024, min: 464 },
+      breakpoint: { max: 1024, min: 768 },
       items: 2
     },
     mobile: {
-      breakpoint: { max: 464, min: 0 },
+      breakpoint: { max: 768, min: 0 },
       items: 1
     }
   };
@@ -30,8 +30,14 @@ const Certifications = () => {
       <h1>Certifications</h1>
       <Carousel
         responsive={responsive}
+        arrows
         infinite
-        className='certifications__carousel'
+        draggable
+        pauseOnHover
+        slidesToSlide={1}
+        swipeable
+        customTransition='all .5s linear'
+
       >
         {certifications.map(certification => <CertificateCard certificate={certification} />)}
       </Carousel>

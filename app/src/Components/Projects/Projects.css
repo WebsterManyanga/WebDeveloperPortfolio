@@ -1,8 +1,14 @@
 .projects {
     position: relative;
     padding-bottom: 100px;
+    margin: 0 auto;
 }
 
+@media screen and (min-width: 768px) {
+  .projects {
+    width: 80%
+  }
+}
 .projects .card {
         margin:  0 auto;
 }

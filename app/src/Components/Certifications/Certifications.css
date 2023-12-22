@@ -1,14 +1,10 @@
-
+.certifications {
+  margin: 0 auto;
+}
 .certifications h1{
   font-size: 40px;
   padding: 45px 0;
 }
-
-.certifications__carousel {
-  height: 500px;
-  margin: 0 auto;
-}
-
 
 .certifications a {
   color: inherit;
@@ -42,4 +38,10 @@
   font-weight: 400;
   line-height: normal;
   margin-bottom: 8px;
+}
+
+@media screen and (min-width: 768px) {
+  .certifications {
+    width: 80%
+  }
 }

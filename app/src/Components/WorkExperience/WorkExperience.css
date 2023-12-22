@@ -1,5 +1,6 @@
 .work-experience{
   padding: 45px 20px;
+  margin: 0 auto; 
 }
 
 
@@ -28,4 +29,10 @@
 
 .job__period {
   font-size: 12px;
+}
+
+@media screen and (min-width: 768px) {
+  .work-experience {
+    width: 80%
+  }
 }

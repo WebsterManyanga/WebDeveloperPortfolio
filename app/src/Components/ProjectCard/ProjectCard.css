@@ -11,6 +11,18 @@
 
 }
 
+@media screen and (min-width: 768px) {
+  .card {
+    width: 240px;
+    height: 400px;
+  }
+
+  .card__buttons button {
+    font-size: 25px !important;
+  }
+
+}
+
 .card img {
   width: 100%;
   height: auto;

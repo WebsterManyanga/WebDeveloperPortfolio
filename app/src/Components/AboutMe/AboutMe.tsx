@@ -13,7 +13,9 @@ const AboutMe = React.forwardRef<HTMLElement, {}>((props, ref) => {
     <section id='about-me' className="about" ref={ref}>
       <h1>HELLO!</h1>
       <div className='about__top'>
-        <img src={me} alt="headshot" />
+        <div className='about__img-wrapper'>
+          <img src={me} alt="headshot" />
+        </div>
         <p>
           Aspiring Frontend Developer with expert understanding of web development principles and practices, including HTML, CSS, and JavaScript.
           Strong written and verbal communication skills in English, with the ability to work independently and as part of a team.
