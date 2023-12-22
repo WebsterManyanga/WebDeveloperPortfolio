@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/WebDeveloperPortfolio/static/css/main.d77a030f.css",
-    "main.js": "/WebDeveloperPortfolio/static/js/main.a902d83f.js",
+    "main.js": "/WebDeveloperPortfolio/static/js/main.f8fd4010.js",
     "static/js/787.0f8d78ff.chunk.js": "/WebDeveloperPortfolio/static/js/787.0f8d78ff.chunk.js",
     "static/media/introToFrontEnd.jpg": "/WebDeveloperPortfolio/static/media/introToFrontEnd.7a83e6c5b5c0f96b398f.jpg",
     "static/media/ProgrammingWithJavaScript.jpg": "/WebDeveloperPortfolio/static/media/ProgrammingWithJavaScript.413f98d65db1baf7c4b8.jpg",
@@ -20,11 +20,11 @@
     "static/media/revicons.woff": "/WebDeveloperPortfolio/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/WebDeveloperPortfolio/index.html",
     "main.d77a030f.css.map": "/WebDeveloperPortfolio/static/css/main.d77a030f.css.map",
-    "main.a902d83f.js.map": "/WebDeveloperPortfolio/static/js/main.a902d83f.js.map",
+    "main.f8fd4010.js.map": "/WebDeveloperPortfolio/static/js/main.f8fd4010.js.map",
     "787.0f8d78ff.chunk.js.map": "/WebDeveloperPortfolio/static/js/787.0f8d78ff.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d77a030f.css",
-    "static/js/main.a902d83f.js"
+    "static/js/main.f8fd4010.js"
   ]
 }
