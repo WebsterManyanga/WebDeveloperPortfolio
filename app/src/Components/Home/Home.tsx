@@ -23,7 +23,7 @@ const Home = () => {
           className={`home__proceed wobble-hor-bottom`}
           onClick={() => scrollToAbout()}
         >
-          <FaChevronDown />
+          <FaChevronDown className='down-icon'/>
         </button>
       </section>
       <AboutMe ref={aboutRef}/>

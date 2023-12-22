@@ -51,6 +51,15 @@
   border: none;
 }
 
+.home__proceed .down-icon {
+  transition: transform 0.3s linear;
+
+}
+.home__proceed:hover .down-icon {
+  cursor: pointer;
+  transform: scale(1.2);
+}
+
 .home__proceed--hide {
   display: none;
 }
