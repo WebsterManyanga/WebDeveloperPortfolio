@@ -14,7 +14,7 @@ const AboutMe = React.forwardRef<HTMLElement, {}>((props, ref) => {
       <h1>HELLO!</h1>
       <div className='about__top'>
         <div className='about__img-wrapper'>
-          <img src={me} alt="headshot" />
+          <img src={me} alt="headshot"/>
         </div>
         <p>
           Aspiring Frontend Developer with expert understanding of web development principles and practices, including HTML, CSS, and JavaScript.
