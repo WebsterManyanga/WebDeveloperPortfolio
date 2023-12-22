@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/static/css/main.3e3ddae8.css",
+    "main.js": "/static/js/main.af47407b.js",
+    "static/js/787.0f8d78ff.chunk.js": "/static/js/787.0f8d78ff.chunk.js",
+    "static/media/introToFrontEnd.jpg": "/static/media/introToFrontEnd.7a83e6c5b5c0f96b398f.jpg",
+    "static/media/ProgrammingWithJavaScript.jpg": "/static/media/ProgrammingWithJavaScript.413f98d65db1baf7c4b8.jpg",
+    "static/media/VersionControl.jpg": "/static/media/VersionControl.2cefac6dc4370eba6e61.jpg",
+    "static/media/ReactBasics.jpg": "/static/media/ReactBasics.4e62217e393c278b3b57.jpg",
+    "static/media/JavaScriptAlgorithms.jpg": "/static/media/JavaScriptAlgorithms.ad8ff2d2f3aca6aff615.jpg",
+    "static/media/ResponsiveWebDesign.jpg": "/static/media/ResponsiveWebDesign.f1e6ed29cba936d2a8bf.jpg",
+    "static/media/eminemTribute.jpg": "/static/media/eminemTribute.51e320a1260ef98e0cd9.jpg",
+    "static/media/littleLemon.jpg": "/static/media/littleLemon.fe8213d5f797d083a84b.jpg",
+    "static/media/universityLanding.jpg": "/static/media/universityLanding.cab8cffbf9ef3e4d4680.jpg",
+    "static/media/libraryForm.jpg": "/static/media/libraryForm.b162aeb5357fca3936b3.jpg",
+    "static/media/me.png": "/static/media/me.ff830bc671a730da4286.png",
+    "static/media/blackeyeVisuals.jpg": "/static/media/blackeyeVisuals.f65d9ba36716fe9fc426.jpg",
+    "static/media/revicons.eot": "/static/media/revicons.a77de540a38981833f9e.eot",
+    "static/media/revicons.ttf": "/static/media/revicons.57fd05d4ae650374c8de.ttf",
+    "static/media/revicons.woff": "/static/media/revicons.e8746a624ed098489406.woff",
+    "index.html": "/index.html",
+    "main.3e3ddae8.css.map": "/static/css/main.3e3ddae8.css.map",
+    "main.af47407b.js.map": "/static/js/main.af47407b.js.map",
+    "787.0f8d78ff.chunk.js.map": "/static/js/787.0f8d78ff.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3e3ddae8.css",
+    "static/js/main.af47407b.js"
+  ]
+}
