@@ -6,15 +6,15 @@ import './AllProjectsCards.css';
 const AllProjectsCards = ({category} : PropType) => {
   const projects = projectsLibrary.map(project => {
     if (project.category === category) {
-      return <ProjectCard project={project} />
+      return <li key={project.id}><ProjectCard project={project} /></li>
     }
   });
 
-  console.log(projects);
+  const filteredProjects = projects.filter(project => project ? true : false);
    
   return (
     <div className="all-projects">
-      {projects[0] ? projects : <h1>Nothing to see here...👀</h1>}
+      {filteredProjects[0] ? filteredProjects : <h1>Nothing to see here...👀</h1>}
     </div>
   );
 }

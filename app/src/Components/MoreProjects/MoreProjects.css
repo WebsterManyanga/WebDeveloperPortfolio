@@ -15,6 +15,10 @@
   top: 0;
 }
 
+.more-projects a {
+  text-decoration: none;
+}
+
 .more-projects header h1 {
   font-size: 32px;
   padding-left: 15px;

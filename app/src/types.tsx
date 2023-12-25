@@ -6,7 +6,7 @@ export interface ProjectType {
   description: string,
   date: string,
   image: string
-  category: 'portfolios'| 'business'| 'ecommerce' | 'entertainment'
+  category: 'portfolios'| 'business'| 'ecommerce' | 'fun'
 }
 
 export interface Certificate {

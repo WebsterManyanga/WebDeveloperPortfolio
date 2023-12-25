@@ -13,7 +13,7 @@ const MoreProjects = () => {
     <section className="more-projects">
       <ScrollToTop />
       <header>
-        <h1>All Projects</h1>
+        <Link to={'/'}><h1>All Projects</h1></Link>
         <nav>
           <Link 
             to='portfolios' 

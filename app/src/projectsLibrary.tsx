@@ -51,6 +51,16 @@ export const projectsLibrary: ProjectType[] = [
     description: '',
     date: 'Apr-09-2023',
     category: 'portfolios'
+  },
+  {
+    id: 6,
+    title: 'Memory Game',
+    repo: 'https://github.com/WebsterManyanga/mGF96wRf3W8hzoTdqalh/tree/devel',
+    link: 'https://webstermanyanga.github.io/mGF96wRf3W8hzoTdqalh/',
+    image: require('./assets/memoryGame.jpg'),
+    description: '',
+    date: 'Oct-08-2023',
+    category: 'fun'
   }
 ]
 
