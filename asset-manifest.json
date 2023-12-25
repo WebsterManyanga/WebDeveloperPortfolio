@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/WebDeveloperPortfolio/static/css/main.dc576f6b.css",
-    "main.js": "/WebDeveloperPortfolio/static/js/main.f8fd4010.js",
+    "main.css": "/WebDeveloperPortfolio/static/css/main.32460509.css",
+    "main.js": "/WebDeveloperPortfolio/static/js/main.9ea42a01.js",
     "static/js/787.0f8d78ff.chunk.js": "/WebDeveloperPortfolio/static/js/787.0f8d78ff.chunk.js",
     "static/media/introToFrontEnd.jpg": "/WebDeveloperPortfolio/static/media/introToFrontEnd.7a83e6c5b5c0f96b398f.jpg",
     "static/media/ProgrammingWithJavaScript.jpg": "/WebDeveloperPortfolio/static/media/ProgrammingWithJavaScript.413f98d65db1baf7c4b8.jpg",
@@ -11,6 +11,7 @@
     "static/media/ResponsiveWebDesign.jpg": "/WebDeveloperPortfolio/static/media/ResponsiveWebDesign.f1e6ed29cba936d2a8bf.jpg",
     "static/media/eminemTribute.jpg": "/WebDeveloperPortfolio/static/media/eminemTribute.51e320a1260ef98e0cd9.jpg",
     "static/media/littleLemon.jpg": "/WebDeveloperPortfolio/static/media/littleLemon.fe8213d5f797d083a84b.jpg",
+    "static/media/memoryGame.jpg": "/WebDeveloperPortfolio/static/media/memoryGame.233b1a1d5cdd9cb2f1bc.jpg",
     "static/media/universityLanding.jpg": "/WebDeveloperPortfolio/static/media/universityLanding.cab8cffbf9ef3e4d4680.jpg",
     "static/media/libraryForm.jpg": "/WebDeveloperPortfolio/static/media/libraryForm.b162aeb5357fca3936b3.jpg",
     "static/media/me.png": "/WebDeveloperPortfolio/static/media/me.ff830bc671a730da4286.png",
@@ -19,12 +20,12 @@
     "static/media/revicons.ttf": "/WebDeveloperPortfolio/static/media/revicons.57fd05d4ae650374c8de.ttf",
     "static/media/revicons.woff": "/WebDeveloperPortfolio/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/WebDeveloperPortfolio/index.html",
-    "main.dc576f6b.css.map": "/WebDeveloperPortfolio/static/css/main.dc576f6b.css.map",
-    "main.f8fd4010.js.map": "/WebDeveloperPortfolio/static/js/main.f8fd4010.js.map",
+    "main.32460509.css.map": "/WebDeveloperPortfolio/static/css/main.32460509.css.map",
+    "main.9ea42a01.js.map": "/WebDeveloperPortfolio/static/js/main.9ea42a01.js.map",
     "787.0f8d78ff.chunk.js.map": "/WebDeveloperPortfolio/static/js/787.0f8d78ff.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.dc576f6b.css",
-    "static/js/main.f8fd4010.js"
+    "static/css/main.32460509.css",
+    "static/js/main.9ea42a01.js"
   ]
 }
