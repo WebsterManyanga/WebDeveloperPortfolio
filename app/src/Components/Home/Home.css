@@ -37,7 +37,6 @@
 .heading__top--show {
   opacity: 1;
   animation: typing 2s steps(15), blink .5s step-end alternate;
-  animation-delay: 1s;
 }
 
 .heading__mid {
