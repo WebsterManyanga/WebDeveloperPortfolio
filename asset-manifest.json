@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/WebDeveloperPortfolio/static/css/main.30b474e8.css",
+    "main.css": "/WebDeveloperPortfolio/static/css/main.60430f1f.css",
     "main.js": "/WebDeveloperPortfolio/static/js/main.482f2856.js",
     "static/js/787.0f8d78ff.chunk.js": "/WebDeveloperPortfolio/static/js/787.0f8d78ff.chunk.js",
     "static/media/introToFrontEnd.jpg": "/WebDeveloperPortfolio/static/media/introToFrontEnd.7a83e6c5b5c0f96b398f.jpg",
@@ -20,12 +20,12 @@
     "static/media/revicons.ttf": "/WebDeveloperPortfolio/static/media/revicons.57fd05d4ae650374c8de.ttf",
     "static/media/revicons.woff": "/WebDeveloperPortfolio/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/WebDeveloperPortfolio/index.html",
-    "main.30b474e8.css.map": "/WebDeveloperPortfolio/static/css/main.30b474e8.css.map",
+    "main.60430f1f.css.map": "/WebDeveloperPortfolio/static/css/main.60430f1f.css.map",
     "main.482f2856.js.map": "/WebDeveloperPortfolio/static/js/main.482f2856.js.map",
     "787.0f8d78ff.chunk.js.map": "/WebDeveloperPortfolio/static/js/787.0f8d78ff.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.30b474e8.css",
+    "static/css/main.60430f1f.css",
     "static/js/main.482f2856.js"
   ]
 }
