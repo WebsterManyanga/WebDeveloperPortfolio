@@ -1,4 +1,4 @@
-import { useRef } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import AboutMe from '../AboutMe/AboutMe';
 import './Home.css';
 import { FaChevronDown } from "react-icons/fa6";
@@ -11,11 +11,17 @@ const Home = () => {
     }
   }
   
+  const [displayName, setDisplayName] = useState('heading__top--hide');
+
+  useEffect(() => {
+    setTimeout(() => setDisplayName('heading__top--show'), 1000)
+  }, [])
+  
   return (
     <>
       <section className="home">
-        <div className="heading" >
-          <h1 className="heading__top">WEBSTER'S</h1>
+        <div className="heading">
+          <h1 className={`heading__top ${displayName}`}>WEBSTER'S</h1>
           <h1 className="heading__mid">PORTFOLIO.</h1>
           <h1 className="heading__end">WEB DEVELOPER</h1>
         </div>

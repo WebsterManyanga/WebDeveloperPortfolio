@@ -26,9 +26,18 @@
   background-color: red;
   padding: 2px;
   width: 10ch;
-  animation: typing 2s steps(15), blink .5s step-end alternate;
   white-space: nowrap;
   overflow: hidden;
+}
+
+.heading__top--hide {
+  opacity: 0;
+}
+
+.heading__top--show {
+  opacity: 1;
+  animation: typing 2s steps(15), blink .5s step-end alternate;
+  animation-delay: 1s;
 }
 
 .heading__mid {
