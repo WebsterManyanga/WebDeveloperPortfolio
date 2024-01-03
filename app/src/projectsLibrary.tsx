@@ -1,4 +1,4 @@
-import { ProjectType } from "./types";
+import { ProjectType } from "./Types/types";
 import template from './assets/Screenshot 2023-12-02 194421.png';
 
 export const projectsLibrary: ProjectType[] = [

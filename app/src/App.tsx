@@ -6,6 +6,7 @@ import Certifications from './Components/Certifications/Certifications';
 import WorkExperience from './Components/WorkExperience/WorkExperience';
 import ThatsAllFolks from './Components/ThatsAllFolks/ThatsAllFolks';
 import ScrollToTop from './Components/ScrollToTop/ScrollToTop';
+import DownloadCv from './Components/DownloadCv/DownloadCv';
 
 function App() {
 
@@ -16,6 +17,7 @@ function App() {
       <Projects />
       <Certifications />
       <WorkExperience />
+      <DownloadCv />
       <ThatsAllFolks />
     </div>
   );

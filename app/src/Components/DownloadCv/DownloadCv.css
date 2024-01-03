@@ -1,0 +1,24 @@
+.download-cv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.download-cv__icon {
+  font-size: 50px;
+  border: none;
+  background: none;
+  color: #fff;
+  transition: transform 0.3s;
+}
+
+.download-cv__icon:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+
+}
+
+.download-cv p {
+  font-size: 20px;
+}

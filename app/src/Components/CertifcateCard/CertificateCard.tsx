@@ -1,7 +1,7 @@
-import { Certificate } from '../../types';
+import { Certificate } from '../../Types/types';
 import './CertificateCard.css';
 
-const CertificateCard = ({certificate} : PropType) => {
+const CertificateCard = ({ certificate }: PropType) => {
   return (
     <div className='certificate-card-wrappper'>
       <div className='certificate-card'>
@@ -11,5 +11,5 @@ const CertificateCard = ({certificate} : PropType) => {
   );
 }
 
-type PropType = {certificate: Certificate}
+type PropType = { certificate: Certificate }
 export default CertificateCard;
